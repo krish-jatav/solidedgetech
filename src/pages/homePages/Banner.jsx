@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
 
         <div className='mt-8 md:mt-0'>
-          <img className='w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg' src='Banner.png' alt='Hero Image' />
+          <img className='w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg' src='hero.png' alt='Hero Image' />
         </div>
       </div>
     </div>
