@@ -13,6 +13,7 @@ const Home = () => {
       <Specialisations></Specialisations>
       <Commitment></Commitment>
       <Discover></Discover>
+      
     </div>
   )
 }

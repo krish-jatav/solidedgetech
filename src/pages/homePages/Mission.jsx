@@ -32,7 +32,7 @@ const Mission = () => {
       </div>
      
     </div>
-     <div className='  flex justify-center items-center text-3xl text-white'>
+     <div className=' flex justify-center items-center text-3xl text-white'>
      <h1 className='text-center font-bold'> Our Mission, Vision & Values</h1>
       </div>
       <div className=" mt-10 flex flex-col md:flex-row gap-6 justify-center items-center  p-6">
