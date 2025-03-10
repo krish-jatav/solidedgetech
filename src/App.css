@@ -1,0 +1,14 @@
+@font-face {
+  font-family: poppins;
+  src: url(../public/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: sp;
+  src: url(../public/sp.ttf);
+}
+body{
+  background: #000;
+  font-family: poppins;
+  /* font-weight: 200; */
+}
+
