@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './hero'
+import Hero from './Hero'
 import Mission from './Mission'
 import Specialisations from './Specialisations'
 import Commitment from './Commitment'
