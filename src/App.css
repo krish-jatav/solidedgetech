@@ -11,4 +11,11 @@ body{
   font-family: poppins;
   /* font-weight: 200; */
 }
+* {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
 
