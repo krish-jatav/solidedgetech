@@ -4,6 +4,7 @@ import Specialisations from './Specialisations'
 import Commitment from './Commitment'
 import Discover from './Discover'
 import Banner from './Banner'
+import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Specialisations></Specialisations>
       <Commitment></Commitment>
       <Discover></Discover>
+      <Testimonials></Testimonials>
       
     </div>
   )
