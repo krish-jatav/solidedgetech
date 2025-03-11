@@ -12,22 +12,13 @@ const ServiceCard = ({ icon, title, description }) => {
       transition={{ duration: 0.8 }}
       whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.2)" }}
     >
-      <div className="min-h-[15vw] min-w-[25vw] bg-slate-50 p-8 rounded-lg shadow-md flex flex-col justify-between">
+      <div className="min-h-[15vw] min-w-[25vw] bg-[#CDC9C9]  p-8 rounded-lg shadow-md flex flex-col justify-between">
         <p className="text-lg">{description}</p>
         <div className="flex justify-between items-center mt-4">
-          <h2 className="text-2xl font-bold">{title}</h2>
-          <Link className="">
-            <motion.svg
-              className="star-arrow-icon"
-              width="55"
-              height="55"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlSpace="preserve"
-              viewBox="0 0 55 55"
-              whileHover={{ rotate: 360, transition: { duration: 0.5 } }}
-            >
+          <h2 className="text-2xl">{title}</h2>
+          <Link className=" bg-[#697565] p-2 rounded-full">
+           
              {icon}
-            </motion.svg>
           </Link>
         </div>
       </div>

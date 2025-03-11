@@ -1,22 +1,27 @@
 import React from 'react'
 import { motion } from "framer-motion";
-const TestimonialsCards = ({ image, highlighted = false }) => {
+
+const TestimonialsCards = ({ para, name, designation, image, highlighted = false }) => {
   return (
-    <div>
-         <motion.div
-      className="relative flex  rounded-lg overflow-hidden shadow-lg border bg-black text-white transition-all duration-300"
+    <motion.div
+      className={`relative px-10 max-md:px-2  flex rounded-lg overflow-hidden flex-col shadow-lg border bg-[#CDC9C9] text-black transition-all duration-300 ${
+        highlighted ? '' : ''
+      }`}
       whileHover={{ scale: 1.05 }}
     >
-      <div className=' px-5 py-10 '>
-      <img src={image} alt="Card" className="w-10 h-10  rounded-full  object-cover overflow-hidden" />
+      <div className=' border pt-5  bg-[#697565] mt-5 rounded-2xl text-balck  h-full flex  gap-5 items-center w-full py-3 px-5'>
+        <img src={image} alt={name} className=" w-20  rounded-full object-cover" />
+       <div className=''>
+       <h3 className="text-xl ">{name}</h3>
+       <h4 className="text-sm">{designation}</h4>
+       </div>
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-bold text-yellow-400">yahoo!</h3>
-        <p className="mt-2 text-sm">“BusyKid will help teach your child how to invest.”</p>
+       
+        <p className="mt-2 text-sm ">{para}</p>
       </div>
     </motion.div>
-    </div>
-  )
-}
+  );
+};
 
-export default TestimonialsCards
+export default TestimonialsCards;

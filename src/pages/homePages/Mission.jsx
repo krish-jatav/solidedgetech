@@ -20,10 +20,10 @@ const Mission = () => {
         }
       ];
   return (
-   <div>
-     <div className=' w-full bg-black text-white px-6 md:px-12 py-10'>
+   <div className=''>
+     <div className=' w-full  text-white px-6 md:px-12 py-10'>
       <div className=' w-[70vw] max-md:w-full'>
-        <h1 className='text-3xl md:text-5xl py-5 font-bold'>
+        <h1 className='text-3xl md:text-5xl py-5 '>
           Welcome to Solid Edge Tech
         </h1>
         <p className='text-[#6a6a6a] text-base md:text-lg'>
@@ -33,7 +33,7 @@ const Mission = () => {
      
     </div>
      <div className=' max-md:px-5 px-12 text-3xl text-white'>
-     <h1 className='  font-bold'> Our Mission, Vision & Values</h1>
+     <h1 className='  '> Our Mission, Vision & Values</h1>
       </div>
       <div className=" mt-10 flex flex-col md:flex-row gap-6 justify-center items-center  p-6">
       {cards.map((card, index) => (

@@ -11,10 +11,10 @@ const MissionCards = ({ title, description, link }) => {
       transition={{ duration: 0.8 }}
       whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px rgba(0,0,0,0.2)" }}
     >
-      <div className="min-h-[15vw] min-w-[25vw]  bg-slate-50 p-8 rounded-lg flex flex-col justify-between">
+      <div className="min-h-[15vw] min-w-[25vw]  bg-[#CDC9C9] min-md:flex-wrap p-8 rounded-lg flex flex-col justify-between">
         <p className="text-xl">{description}</p>
         <div className="flex justify-between items-center mt-4">
-          <h2 className="text-2xl font-extrabold">{title}</h2>
+          <h2 className="text-2xl border border-black px-12 rounded-full">{title}</h2>
           <Link className="">
             <motion.svg
               className="star-arrow-icon"

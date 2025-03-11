@@ -8,7 +8,7 @@ const StatsSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <div ref={ref} className="bg-black text-white flex justify-center items-center max-md:py-5  py-16">
+    <div ref={ref} className=" text-white flex justify-center items-center max-md:py-5  py-16">
       <div className=" bg-[#65666327] rounded-3xl w-[50vw] max-md:flex-none  max-md:py-5  py-10 px-6 flex flex-col md:flex-row justify-center items-center max-md:gap-5 gap-20">
         {stats.map((stat, index) => (
           <motion.div
